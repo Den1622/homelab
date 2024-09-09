@@ -6,9 +6,9 @@ docker_configs: "/mnt/nfs/docker" # CHANGE_ME!!! - Change to the folder where yo
 # Proxmox API variables
 api_host: "{{ ansible_host }}" 
 api_user: root@pam # CHANGE_ME!!!
-api_password: 8ug58unny # CHANGE_ME!!! - Set login password
+api_password: change_me # CHANGE_ME!!! - Set login password
 api_token_id: ansible 
-api_token_secret: dc70aeaa-947e-46e1-8d4e-0e5683043730 # CHANGE_ME!!! - Set Tocken Secret.
+api_token_secret: change_me # CHANGE_ME!!! - Set Tocken Secret.
 
 # Proxmox node target
 node_target: pve
@@ -18,4 +18,4 @@ storage_target: local-zfs # CHANGE_ME!!! - Set storage target name
 
 # cloud-init configuration
 ci_user: administrator # CHANGE_ME!!! - Set Cloud-init username
-ci_password: 8ug58unny
+ci_password: change_me
